@@ -14,7 +14,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className="w-full fixed top-0 left-0 z-50 border-b border-b-gray-300/40">
+    <header className="w-full z-50 border-b border-b-gray-300/40">
       <div className="container mx-auto flex justify-between items-center px-4 py-2 relative bg-transparent">
 
         <div className="w-32 md:w-36 lg:w-40">
@@ -38,12 +38,12 @@ const Navbar = () => {
         >
           <span
             className={`absolute h-0.5 w-8 bg-black transform transition duration-300 ease-in-out ${
-              open ? "rotate-45" : "-translate-y-1.5"
+              open ? "rotate-45 bg-white" : "-translate-y-1.5"
             }`}
           ></span>
           <span
             className={`absolute h-0.5 w-8 bg-black transform transition duration-300 ease-in-out ${
-              open ? "-rotate-45" : "translate-y-1.5"
+              open ? "-rotate-45 bg-white" : "translate-y-1.5"
             }`}
           ></span>
         </button>
@@ -54,14 +54,14 @@ const Navbar = () => {
           open ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
       >
-        <div className="flex flex-col gap-y-6 items-center justify-center h-full">
+        <div className="flex flex-col gap-y-5 items-center justify-center h-full">
           {Links.map((link, i) => (
             <a key={i} href="#" className="text-white text-lg hover:text-cyan-400 transition">
               {link}
             </a>
           ))}
 
-          <button className="text-white bg-[#2AB691]/90 px-6 py-2 rounded cursor-pointer hover:bg-[#2AB691]/80 transition">
+          <button  className='px-6 py-2.5 cursor-pointer rounded-md bg-indigo-500 text-white'>
             Sign Up
           </button>
         </div>

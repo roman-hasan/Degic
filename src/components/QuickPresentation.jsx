@@ -2,7 +2,9 @@ import React from 'react'
 
 const QuickPresentation = () => {
   return (
-    <div>QuickPresentation</div>
+    <div>
+      
+    </div>
   )
 }
 

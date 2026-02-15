@@ -1,3 +1,25 @@
+import heroImage from "../assets/hero.png"
+import management from "../assets/management.png"
+import entertainment from "../assets/entertainment.png"
+import references from "../assets/references.png"
+import marketing from  "../assets/marketing.png"
+import miniLogo from  "../assets/miniLogo.png"
+import company1 from  "../assets/company1.png"
+import company2 from  "../assets/company3.png"
+import company4 from  "../assets/company4.png"
+import company5 from  "../assets/company5.png"
+import company6 from  "../assets/company6.png"
+import company7 from  "../assets/company7.png"
+import videoBanner from "../assets/videoBanner.png"
+import work1 from "../assets/work1.png"
+import work2 from "../assets/work2.png"
+import bomb from "../assets/bomb.png"
+import QuickMask from "../assets/quick-mask.png"
+import blog1 from "../assets/blog1.png"
+import blog2 from "../assets/blog2.png"
+import blog3 from "../assets/blog3.png"
+import CartoonImage from "../assets/Cartoon.png"
+
 export const sections = [
   {
     type: "hero",
@@ -5,7 +27,7 @@ export const sections = [
       heading: "Simply explained with illustrations",
       paragraph:
         "There are a lot of different components that will help you create the perfect look for your project",
-      image: "/assets/hero.png"
+      image: heroImage
     }
   },
   {
@@ -16,25 +38,25 @@ export const sections = [
         "Best software platform for running an internet business. We build the most powerful and flexible tools for internet commerce.",
       grid: [
         {
-          image: "/assets/management.png",
+          image: management,
           heading: "Management",
           paragraph:
             "Organize your workflow, track performance, and manage your team with smart and structured tools."
         },
         {
-          image: "/assets/entertainment.png",
+          image: entertainment,
           heading: "Entertainment",
           paragraph:
             "Deliver engaging and interactive digital experiences with creative visual components."
         },
         {
-          image: "/assets/marketing.png",
+          image: marketing,
           heading: "Marketing",
           paragraph:
             "Launch campaigns, analyze insights, and grow your audience using modern marketing solutions."
         },
         {
-          image: "/assets/references.png",
+          image: references,
           heading: "References",
           paragraph:
             "Access reliable resources and structured documentation to support your projects effectively."
@@ -46,44 +68,40 @@ export const sections = [
   {
     type: "slider",
     data: {
+      image: CartoonImage,
       slides: [
         {
-          miniLogo: "/assets/miniLogo.png",
+          miniLogo: miniLogo,
           heading: "Make more time for the work that matters most",
           paragraph:
             "Best software platform for running an internet business.",
-          mainImage: "/assets/slider1-large.png"
         },
         {
-          miniLogo: "/assets/miniLogo.png",
+          miniLogo: miniLogo,
           heading: "Simplify your daily workflow",
           paragraph:
             "Tools and components to make your tasks faster and smarter.",
-          mainImage: "/assets/slider2-large.png"
         },
         {
-          miniLogo: "/assets/miniLogo.png",
+          miniLogo: miniLogo,
           heading: "Boost your team's productivity",
           paragraph:
             "Efficient management and collaboration tools for everyone.",
-          mainImage: "/assets/slider3-large.png"
         },
         {
-          miniLogo: "/assets/miniLogo.png",
+          miniLogo: miniLogo,
           heading: "Focus on what really matters",
           paragraph:
             "Spend less time on routine tasks and more on creative work.",
-          mainImage: "/assets/slider4-large.png"
         }
       ],
       companyLogos: [
-        "/assets/company1.png",
-        "/assets/company2.png",
-        "/assets/company3.png",
-        "/assets/company4.png",
-        "/assets/company5.png",
-        "/assets/company6.png",
-        "/assets/company7.png"
+        company1,
+        company2,
+        company4,
+        company5,
+        company6,
+        company7
       ]
     }
   },
@@ -92,7 +110,7 @@ export const sections = [
     type: "video",
     data: {
       heading: "Use illustrations in UI design",
-      bannerImage: "/assets/video-banner.png"
+      bannerImage: videoBanner
     }
   },
 
@@ -103,7 +121,7 @@ export const sections = [
       blocks: [
         {
           layout: "image-left",
-          image: "/assets/work1.png",
+          image: work1,
           heading: "Make more time for the work",
           bullets: [
             "Many ways to use illustrations in design",
@@ -113,7 +131,7 @@ export const sections = [
         },
         {
           layout: "image-right",
-          image: "/assets/work2.png",
+          image: work2,
           heading: "Design smarter with modern tools",
           bullets: [
             "Create beautiful layouts effortlessly",
@@ -131,8 +149,8 @@ export const sections = [
     data: {
       heading: "The quickest way to create awesome presentation",
       images: {
-        maskImage: "/assets/quick-mask.png",
-        illustrationImage: "/assets/bomb.png"
+        maskImage: QuickMask,
+        illustrationImage: bomb
       }
     }
   },
@@ -145,21 +163,21 @@ export const sections = [
         "There are a lot of different components that will help you create the perfect look for your project",
       posts: [
         {
-          image: "/assets/blog1.png",
+          image: blog1,
           heading: "Make myspace your best designed space",
           paragraph:
             "A lot of different components that will help you create the perfect look for your project",
           category: "Design"
         },
         {
-          image: "/assets/blog2.png",
+          image: blog2,
           heading: "My company culture has changed today",
           paragraph:
             "3D illustrations are transforming digital experiences with depth, realism, and modern visual storytelling.",
           category: "3D Illustrations"
         },
         {
-          image: "/assets/blog3.png",
+          image: blog3,
           heading:
             "Professionals in craft! All products were super great",
           paragraph:
