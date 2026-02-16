@@ -27,7 +27,7 @@ export const sections = [
       heading: "Simply explained with illustrations",
       paragraph:
         "There are a lot of different components that will help you create the perfect look for your project",
-      image: heroImage
+      heroImage
     }
   },
   {
@@ -64,31 +64,31 @@ export const sections = [
   {
     type: "slider",
     data: {
-      image: CartoonImage,
+      CartoonImage,
       slides: [
         {
-          miniLogo: miniLogo,
+          miniLogo,
           heading: "Make more time for the work that matters most",
           paragraph:
-            "Best software platform for running an internet business.",
+            "Our platform helps you streamline repetitive tasks so you can dedicate more hours to the projects and ideas that truly make an impact. Focus on what drives growth while we handle the rest."
         },
         {
-          miniLogo: miniLogo,
+          miniLogo,
           heading: "Simplify your daily workflow",
           paragraph:
-            "Tools and components to make your tasks faster and smarter.",
+            "With a set of intuitive tools and ready-to-use components, your day-to-day tasks become faster, smarter, and less stressful. Automate routine processes and keep your workflow seamless and efficient."
         },
         {
-          miniLogo: miniLogo,
+          miniLogo,
           heading: "Boost your team's productivity",
           paragraph:
-            "Efficient management and collaboration tools for everyone.",
+            "Empower your team with collaboration tools that make communication smooth and project management effortless. Stay on top of deadlines, share resources easily, and watch your collective productivity soar."
         },
         {
-          miniLogo: miniLogo,
+          miniLogo,
           heading: "Focus on what really matters",
           paragraph:
-            "Spend less time on routine tasks and more on creative work.",
+            "Spend less time on mundane tasks and more on creativity and strategic thinking. Our solutions allow you to prioritize impactful work, innovate freely, and make every effort count toward meaningful results."
         }
       ],
       companyLogos: [
@@ -106,7 +106,7 @@ export const sections = [
     type: "video",
     data: {
       heading: "Use illustrations in UI design",
-      bannerImage: videoBanner
+      videoBanner
     }
   },
 

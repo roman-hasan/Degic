@@ -14,8 +14,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className="w-full z-50 border-b border-b-gray-300/40">
-      <div className="container mx-auto flex justify-between items-center px-4 py-2 relative bg-transparent">
+    <header className="w-full sticky top-0 bg-white z-50 border-b border-b-gray-300/40">
+      <div className="container mx-auto flex justify-between items-center px-8 py-2 relative bg-transparent">
 
         <div className="w-32 md:w-36 lg:w-40">
           <img src={logo} alt="Logo" className="w-full" />
