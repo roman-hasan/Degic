@@ -36,32 +36,28 @@ export const sections = [
       heading: "The quickest way to create modern presentation",
       paragraph:
         "Best software platform for running an internet business. We build the most powerful and flexible tools for internet commerce.",
-      grid: [
-        {
-          image: management,
-          heading: "Management",
-          paragraph:
-            "Organize your workflow, track performance, and manage your team with smart and structured tools."
-        },
-        {
-          image: entertainment,
-          heading: "Entertainment",
-          paragraph:
-            "Deliver engaging and interactive digital experiences with creative visual components."
-        },
-        {
-          image: marketing,
-          heading: "Marketing",
-          paragraph:
-            "Launch campaigns, analyze insights, and grow your audience using modern marketing solutions."
-        },
-        {
-          image: references,
-          heading: "References",
-          paragraph:
-            "Access reliable resources and structured documentation to support your projects effectively."
-        }
-      ]
+     grid: [
+      {
+        image: management,
+        heading: "Management",
+        paragraph: "Software platform for running your new internet business"
+      },
+      {
+        image: entertainment,
+        heading: "Entertainment",
+        paragraph: "Creative components to build engaging digital experiences."
+      },
+      {
+        image: marketing,
+        heading: "Marketing",
+        paragraph: "Modern solutions to plan, launch, and grow your audience effectively."
+      },
+      {
+        image: references,
+        heading: "References",
+        paragraph: "Reliable resources and clear guides to support your projects."
+      }
+    ]
     }
   },
 
