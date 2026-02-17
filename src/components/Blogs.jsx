@@ -2,9 +2,9 @@ import React from 'react'
 
 const Blogs = () => {
   return (
-    <div>
+    <section className='container mx-auto px-4 py-24'>
       
-    </div>
+    </section>
   )
 }
 

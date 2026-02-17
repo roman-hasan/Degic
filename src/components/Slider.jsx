@@ -19,8 +19,8 @@ const Slider = ({slides, CartoonImage, companyLogos}) => {
   return (
     <section className='container mx-auto px-4 lg:py-32 py-24'>
       <div className='gap-8 flex lg:flex-row flex-col justify-between items-start lg:items-center'>
-        <div className='w-full'>
-          <div className='w-full max-w-xl'>
+        <div className='w-full flex lg:justify-center'>
+          <div className='w-full max-w-xl space-y-3'>
             <div className='flex items-center gap-3'>
                 <img src={miniLogo} alt="" />
                 <span> Logo </span>
