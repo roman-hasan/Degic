@@ -15,11 +15,11 @@ const QuickPresentation = ({images, heading}) => {
         </div>
        </div>
        <div className='w-1/2 hidden lg:block'>
-          <div class="relative group pt-8">
-          <div class="absolute inset-0 bg-[#F1B000]/20 blur-2xl opacity-50 transition duration-500"></div>
+          <div className="relative group pt-8">
+          <div className="absolute inset-0 bg-[#F1B000]/20 blur-2xl opacity-50 transition duration-500"></div>
           <img 
             src={illustrationImage} 
-            class="relative w-full h-full object-cover max-w-96"
+            className="relative w-full h-full object-cover max-w-96"
           />
         </div>
        </div>

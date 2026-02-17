@@ -24,7 +24,7 @@ const Blogs = ({heading, paragraph, posts}) => {
                     <div className='bg-[#F7F7FA] flex items-center'>
                         <img className='w-full' src={image} alt="" />
                     </div>
-                      <h1 className='my-2.5 font-medium 2xl:text-4xl xl:text-3xl text-2xl'> {heading} </h1>
+                      <h1 className='my-2.5 font-medium xl:text-3xl text-2xl'> {heading} </h1>
                       <p className='mb-4 mt-3 text-[#000000]/50'> {paragraph} </p>
                       <span className='text-[#2AB691] text-sm bg-[#2AB691]/11 px-3 py-2 font-medium rounded my-2'> {category} </span>
                   </div>

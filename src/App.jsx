@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import { sections } from "./config/sections.config"
 import SectionRenderer from "./core/SectionRenderer"
@@ -5,12 +6,15 @@ import SectionRenderer from "./core/SectionRenderer"
 function App() {
   return (
     <>
-       <Navbar/>  
-       {
-          sections.map((section,i)=>(
-            <SectionRenderer key={i} section={section} />
-          ))
-       }
+       <Navbar/> 
+       <main>
+          {
+              sections.map((section,i)=>(
+                <SectionRenderer key={i} section={section} />
+              ))
+          }
+       </main> 
+       <Footer/>
     </>
   )
 }
