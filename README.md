@@ -1,10 +1,7 @@
 # 🚀 Degic
-
 > Simply explained with illustrations.
-
-* **Degic** is a responsive single-page landing UI built with React and Tailwind CSS.  
-- It provides illustration-based presentation and visual explanations to help developers create the perfect look for their projects.
-
+* **Degic** is a landing experience built around clean structure and engaging visual presentation.
+ 
 ## 🛠 Tech Stack
 - React JS
 - Tailwind CSS
