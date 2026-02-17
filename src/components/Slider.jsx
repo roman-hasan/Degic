@@ -25,7 +25,7 @@ const Slider = ({slides, CartoonImage, companyLogos}) => {
                 <img src={miniLogo} alt="" />
                 <span> Logo </span>
             </div>
-            <h1 className="text-[clamp(1.8rem,4vw,3rem)] my-3 leading-tight font-bold text-gray-900"> {heading} </h1>
+            <h1 className="text-[clamp(1.8rem,4vw,3rem)] leading-tight font-semibold text-gray-900"> {heading} </h1>
             <p className='md:text-xl sm:text-lg leading-[1.4] text-[#000000]/50'> {paragraph} </p>
            <div className='flex gap-3 items-center mt-6'>
              <button className='bg-gray-200 p-3 text-slate-700 rounded-full cursor-pointer ' onClick={prevSlide}> <GrPrevious /> </button>

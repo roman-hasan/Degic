@@ -123,7 +123,8 @@ export const sections = [
             "Many ways to use illustrations in design",
             "Simply explained with illustrations",
             "Make more time for the work"
-          ]
+          ],
+          reverse: false
         },
         {
           layout: "image-right",
@@ -133,7 +134,8 @@ export const sections = [
             "Create beautiful layouts effortlessly",
             "Improve workflow with smart components",
             "Focus on creativity, not complexity"
-          ]
+          ],
+          reverse: true
         }
       ]
     }

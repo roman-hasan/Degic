@@ -25,7 +25,7 @@ const Presentation = ({heading, paragraph, grid}) => {
           </div>
           <div className='flex flex-col'>
              <div>
-               <h2 className="text-[clamp(1.8rem,4vw,3rem)] leading-tight font-bold text-gray-900"> {heading} </h2>
+               <h2 className="text-[clamp(1.8rem,4vw,3rem)] leading-tight font-semibold text-gray-900"> {heading} </h2>
                <p  className='md:text-xl sm:text-lg my-4 leading-[1.4] text-[#000000]/50'> {paragraph} </p>
                <button className='px-4 py-2.5 font-medium cursor-pointer rounded-md bg-[#5F62E2]/15 text-indigo-500'> Explore All </button>
              </div>
