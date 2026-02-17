@@ -1,6 +1,6 @@
 # 🚀 Degic
 > Simply explained with illustrations.
-* **Degic** is a landing experience built around clean structure and engaging visual presentation.
+* **Degic** is a landing page that showcases a visually appealing and user-friendly interface.
  
 ## 🛠 Tech Stack
 - React JS
