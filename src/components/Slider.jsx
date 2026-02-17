@@ -41,6 +41,21 @@ const Slider = ({slides, CartoonImage, companyLogos}) => {
         />
        </div>
       </div>
+
+      <div className="slider">
+      <div className="slide-track">
+        {companyLogos.map((img, index) => (
+          <div className="slide" key={index}>
+            <img src={img} alt={`logo-${index}`} />
+          </div>
+        ))}
+        {companyLogos.map((img, index) => (
+          <div className="slide" key={`clone-${index}`}>
+            <img src={img} alt={`logo-clone-${index}`} />
+          </div>
+        ))}
+      </div>
+    </div>
        
     </section>
   )
