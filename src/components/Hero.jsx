@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = ({heading, paragraph, heroImage}) => {
   return (
-    <section className='container mx-auto px-8 gap-7 min-h-[90svh] flex flex-col-reverse justify-center lg:flex-row lg:justify-between items-center'>
+    <section className='container mx-auto px-6 gap-7 min-h-[90svh] flex flex-col-reverse justify-center lg:flex-row lg:justify-between items-center'>
         <div className='w-full'>
           <div className='lg:max-w-xl w-full'>
           <h1 className="text-[clamp(2rem,4vw,4rem)] leading-tight font-bold text-gray-900"> {heading} </h1>
