@@ -6,7 +6,7 @@ const Video = ({heading, videoBanner}) => {
   
   return (
     <section className='bg-gray-50' >
-      <div className='container mx-auto px-4 lg:py-32 py-24'>
+      <div className='container mx-auto px-4 lg:py-32 py-20'>
       <h1  className="text-[clamp(1.8rem,4vw,3rem)] leading-tight font-semibold text-gray-900 text-center"> {heading} </h1>
       <div className="relative max-w-5xl w-full mt-10 mx-auto">
        <img className="w-full" src={videoBanner} alt="" />

@@ -7,7 +7,7 @@ const QuickPresentation = ({images, heading}) => {
       <div className='container mx-auto px-4 flex '>
        <div className='w-full lg:mt-10 my-10 lg:my-0'>
          <div className='max-w-3xl w-full'>
-         <h2 className='sm:text-[clamp(1.8rem,4vw,3rem)] text-2xl leading-tight text-white'> {heading} </h2>
+         <h2 className='sm:text-[clamp(1.8rem,4vw,3rem)] font-medium text-2xl leading-tight text-white'> {heading} </h2>
            <div className='font-medium flex mt-5 gap-x-4'>
              <button className='px-4 py-2 cursor-pointer rounded-md bg-[#2AB691] text-white'>Get Started</button>
              <button className='px-4 py-2 cursor-pointer rounded-md bg-[#FFFFFF]/15 text-white border border-gray-300/30'>Learn More</button>
